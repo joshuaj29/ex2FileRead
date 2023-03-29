@@ -319,7 +319,7 @@ def main():
     
     
     try:
-        with open(r'C:/Users/joshuaj/Documents/PythonCode/TestFiles/34114-test.txt', 'r') as file:
+        with open(r'path to file', 'r') as file:
             fileContent = file.readlines()
             
     except:
